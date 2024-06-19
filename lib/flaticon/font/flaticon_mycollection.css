@@ -1,0 +1,50 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon_mycollection";
+    src: url("./flaticon_mycollection.woff2?e06e08d7f54aad9b237ee258467ce603") format("woff2"),
+url("./flaticon_mycollection.woff?e06e08d7f54aad9b237ee258467ce603") format("woff"),
+url("./flaticon_mycollection.eot?e06e08d7f54aad9b237ee258467ce603#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.ttf?e06e08d7f54aad9b237ee258467ce603") format("truetype"),
+url("./flaticon_mycollection.svg?e06e08d7f54aad9b237ee258467ce603#flaticon_mycollection") format("svg")
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-guasha-massager:before {
+    content: "\f101";
+}
+.flaticon-diet:before {
+    content: "\f102";
+}
+.flaticon-acupuncture:before {
+    content: "\f103";
+}
+.flaticon-cannabis-oil:before {
+    content: "\f104";
+}
+.flaticon-laser:before {
+    content: "\f105";
+}
+.flaticon-herbal:before {
+    content: "\f106";
+}
+

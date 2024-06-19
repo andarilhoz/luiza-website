@@ -1,0 +1,49 @@
+$flaticon_mycollection-font: "flaticon_mycollection";
+
+@font-face {
+    font-family: $flaticon_mycollection-font;
+    src: url("./flaticon_mycollection.woff2?e06e08d7f54aad9b237ee258467ce603") format("woff2"),
+url("./flaticon_mycollection.woff?e06e08d7f54aad9b237ee258467ce603") format("woff"),
+url("./flaticon_mycollection.eot?e06e08d7f54aad9b237ee258467ce603#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.ttf?e06e08d7f54aad9b237ee258467ce603") format("truetype"),
+url("./flaticon_mycollection.svg?e06e08d7f54aad9b237ee258467ce603#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_mycollection-map: (
+    "guasha-massager": "\f101",
+    "diet": "\f102",
+    "acupuncture": "\f103",
+    "cannabis-oil": "\f104",
+    "laser": "\f105",
+    "herbal": "\f106",
+);
+
+.flaticon-guasha-massager:before {
+    content: map-get($flaticon_mycollection-map, "guasha-massager");
+}
+.flaticon-diet:before {
+    content: map-get($flaticon_mycollection-map, "diet");
+}
+.flaticon-acupuncture:before {
+    content: map-get($flaticon_mycollection-map, "acupuncture");
+}
+.flaticon-cannabis-oil:before {
+    content: map-get($flaticon_mycollection-map, "cannabis-oil");
+}
+.flaticon-laser:before {
+    content: map-get($flaticon_mycollection-map, "laser");
+}
+.flaticon-herbal:before {
+    content: map-get($flaticon_mycollection-map, "herbal");
+}
