@@ -9837,4 +9837,20 @@ h6 {
   margin: 0;
   padding: 0;
   list-style-type: none;
+
+  .expanded {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1050;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.service-grid {
+    transition: opacity 0.5s;
+}
+
+
 }
